@@ -15,7 +15,6 @@ public final class RemoteFeedLoader {
     private let url: URL
     private let client: HTTPClient
     
-    // this is how to create my own error
     public enum Error: Swift.Error {
         case connectivity
     }
